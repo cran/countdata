@@ -1,8 +1,8 @@
 Package: countdata
 Type: Package
 Title: The Beta-Binomial Test for Count Data
-Version: 1.1
-Date: 2021-01-24
+Version: 1.2
+Date: 2021-09-14
 Authors@R: c(person("Thang", "Pham", email = "t.pham@amsterdamumc.nl",
                      role = c("aut", "cre", "cph", "ctb"),
                       comment = c(ORCID = "0000-0003-0333-2492")))
@@ -11,12 +11,11 @@ Description: The beta-binomial test is used for significance analysis of indepen
 Depends: R (>= 2.10)
 License: BSD_3_clause + file LICENSE
 Encoding: UTF-8
-LazyData: true
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2021-01-24 14:21:58 UTC; t.pham
+Packaged: 2021-09-14 15:01:22 UTC; t.pham
 Author: Thang Pham [aut, cre, cph, ctb]
     (<https://orcid.org/0000-0003-0333-2492>)
 Repository: CRAN
-Date/Publication: 2021-01-27 10:00:04 UTC
+Date/Publication: 2021-09-14 19:30:02 UTC

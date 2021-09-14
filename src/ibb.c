@@ -16,13 +16,12 @@ Software version: 1.2
 #######################################################################
 */
 
-#include <R.h>
-#include <Rmath.h>
-
 #ifdef _OPENMP
 #include <omp.h>
 #endif
 
+#include <R.h>
+#include <Rmath.h>
 
 /* ln(2) */
 #define T_LN2 0.693147180559945309417232121458

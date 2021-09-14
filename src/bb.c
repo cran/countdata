@@ -17,12 +17,12 @@ Software version: 2.0
 #######################################################################
 */
 
-#include <R.h>
-#include <Rmath.h>
-
 #ifdef _OPENMP
 #include <omp.h>
 #endif
+
+#include <R.h>
+#include <Rmath.h>
 
 #define SMAX (TYPE)1e6
 #define SMIN (TYPE)1e-6

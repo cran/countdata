@@ -278,7 +278,7 @@ head(cbind(d.norm, out$p.value, fc12, fc13, fc23))
 #> 6 0.0001057092 -1.244604 -4.071068 -3.270976
 ```
 
-Note that a positive fold change value means up-regulation where the average of the second group is higher than that of the first group. Conversely, a negative value means down-regulation where the average of the first group is higher than that of the second. If one group contains all zeros, a positive or negative big value is returned (default \code{BIG = 10000}).
+Note that a positive fold change value means up-regulation where the average of the second group is higher than that of the first group. Conversely, a negative value means down-regulation where the average of the first group is higher than that of the second. If one group contains all zeros, a positive or negative big value is returned (default BIG = 10000).
 
 ## Paired test
 
