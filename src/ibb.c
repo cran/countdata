@@ -1,7 +1,7 @@
 /*
 #######################################################################
 
-Author: Thang V. Pham, t.pham@vumc.nl
+Author: Thang V. Pham, t.pham@amsterdamumc.nl
 
 All rights reserved.
 
@@ -11,7 +11,7 @@ T.V. Pham, C.R. Jimenez (2012)
 An accurate paired sample test for count data.
 Bioinformatics, 28(18):i596-i602.
 
-Software version: 1.2
+Software version: 1.3
 
 #######################################################################
 */
@@ -75,7 +75,7 @@ typedef struct _data_t {
 
 
 
-int tp_check();
+int tp_check(void);
 
 /* fval2 */
 TYPE fval2(TYPE* ga, TYPE* gb, TYPE* haa, TYPE* hab, TYPE* hbb, data_t* x, TYPE alp, TYPE bet) {

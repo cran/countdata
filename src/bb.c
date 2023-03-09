@@ -1,7 +1,7 @@
 /*
 #######################################################################
 
-Author: Thang V. Pham, t.pham@vumc.nl
+Author: Thang V. Pham, t.pham@amsterdamumc.nl
 
 All rights reserved.
 
@@ -12,7 +12,7 @@ On the beta binomial model for analysis of spectral count data
 in label-free tandem mass spectrometry-based proteomics.
 Bioinformatics, 26(3):363-369.
 
-Software version: 2.0
+Software version: 1.3
 
 #######################################################################
 */
@@ -716,7 +716,7 @@ static void tp_user(void* dummy) {
 }
 
 // won't longjmp-out of your context
-int tp_check() {
+int tp_check(void) {
     return (R_ToplevelExec(tp_user, NULL) == FALSE);
 }
 
